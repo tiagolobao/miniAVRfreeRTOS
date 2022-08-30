@@ -271,7 +271,7 @@ void vApplicationStackOverflowHook( TaskHandle_t xTask,
     pC = (uint8_t*) LineBuffer;
 
     strcat_P( (char*) pC, PSTR("\r\n"));
-    strcat( (char*) pC, (char*) pcTaskName );
+    strcat_P( (char*) pC, (char*) pcTaskName );
     strcat_P( (char*) pC, PSTR("\r\n"));
 
     pC = (uint8_t*) LineBuffer;
