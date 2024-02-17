@@ -29,6 +29,7 @@
 #include <avr/sleep.h>
 
 #include <util/delay.h>
+#include <string.h>
 
 /* FreeRTOS includes. */
 #include "FreeRTOS.h"
